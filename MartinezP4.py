@@ -50,11 +50,13 @@ for phrase in english2spanish:
 user_input = input("\nPlease type the number corresponding to the phrase you want translated: ")
 
 # Process user input
+
 user_input = int(user_input)
-english_phrase = list(english2spanish.keys())[user_input - 1]
-translation = list(english2spanish.values())[user_input - 1]
 
-
-# Display Translation
-
-print(f"\nThe translation of {english_phrase} is {translation}")
+if user_input <=28:
+  english_phrase = list(english2spanish.keys())[user_input - 1]
+  translation = list(english2spanish.values())[user_input - 1]
+    # Display Translation
+  print(f"\nThe translation of {english_phrase} is {translation}")
+else: 
+  print("Number not found in list. Please try again.")
