@@ -34,9 +34,15 @@ english2spanish={'Good morning.':'Buenos días.',
 'Who?':'¿Quièn?',
 'Why?':'¿Por què?'}
 
+# Welcome and explaination
+
 # Display available phrases
+print("Available phrases to translate: ")
+lang1 = list(english2spanish.keys())
+print(lang1)
 
 # Get user input
+user_input = input("Enter the number of the phrase you want to translate: ")
 
 # Process user input
 
