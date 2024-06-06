@@ -34,3 +34,11 @@ english2spanish={'Good morning.':'Buenos días.',
 'Who?':'¿Quièn?',
 'Why?':'¿Por què?'}
 
+# Display available phrases
+
+# Get user input
+
+# Process user input
+
+# Display Translation
+
