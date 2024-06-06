@@ -35,16 +35,20 @@ english2spanish={'Good morning.':'Buenos días.',
 'Why?':'¿Por què?'}
 
 # Welcome and explaination
+print("\nWelcome!")
+print("This program acts as a english to spanish translator of common phrases.")
 
 # Display available phrases
-print("Available phrases to translate: ")
-lang1 = list(english2spanish.keys())
-print(lang1)
+print("\nHere are the available phrases to choose from: ")
+for phrase in english2spanish: 
+  print(phrase)
 
 # Get user input
-user_input = input("Enter the number of the phrase you want to translate: ")
+user_input = input("\nPlease type out the phrase you want translated(case-sensitive and sensitive to symbols): ")
 
 # Process user input
-
+user_input = user_input.strip()
+translation = english2spanish.get(user_input, "Phrase not found in list. Please restart program and try again.")
 # Display Translation
 
+print(f"\nThe translation of {user_input} is {translation}")
