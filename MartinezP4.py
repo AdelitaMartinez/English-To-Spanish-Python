@@ -40,15 +40,21 @@ print("This program acts as a english to spanish translator of common phrases.")
 
 # Display available phrases
 print("\nHere are the available phrases to choose from: ")
+index = 1
 for phrase in english2spanish: 
-  print(phrase)
+  print(f'{index}. {phrase}')
+  index += 1
+
 
 # Get user input
-user_input = input("\nPlease type out the phrase you want translated(case-sensitive and sensitive to symbols): ")
+user_input = input("\nPlease type the number corresponding to the phrase you want translated: ")
 
 # Process user input
-user_input = user_input.strip()
-translation = english2spanish.get(user_input, "Phrase not found in list. Please restart program and try again.")
+user_input = int(user_input)
+english_phrase = list(english2spanish.keys())[user_input - 1]
+translation = list(english2spanish.values())[user_input - 1]
+
+
 # Display Translation
 
-print(f"\nThe translation of {user_input} is {translation}")
+print(f"\nThe translation of {english_phrase} is {translation}")
