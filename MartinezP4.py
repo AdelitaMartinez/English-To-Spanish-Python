@@ -39,6 +39,7 @@ print("\nWelcome!")
 print("This program acts as a english to spanish translator of common phrases.")
 
 # Display available phrases
+# Display index of phrase
 print("\nHere are the available phrases to choose from: ")
 index = 1
 for phrase in english2spanish: 
@@ -46,17 +47,17 @@ for phrase in english2spanish:
   index += 1
 
 
-# Get user input
+# Get input from user
 user_input = input("\nPlease type the number corresponding to the phrase you want translated: ")
 
 # Process user input
-
 user_input = int(user_input)
 
 if user_input <=28:
   english_phrase = list(english2spanish.keys())[user_input - 1]
   translation = list(english2spanish.values())[user_input - 1]
-    # Display Translation
+    # Display Translation if number is available
   print(f"\nThe translation of {english_phrase} is {translation}")
 else: 
+  # Display error message if number is not available
   print("Number not found in list. Please try again.")
