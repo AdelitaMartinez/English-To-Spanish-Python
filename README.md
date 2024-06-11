@@ -8,7 +8,6 @@ Welcome to the English to Spanish Translator! This Python program takes common E
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -26,7 +25,7 @@ This project is a simple Python-based translator that converts common English ph
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/english-to-spanish-translator.git
+    git clone https://github.com/adelitamartinez/english-to-spanish-translator.git
     ```
 2. **Ensure you have Python 3.12.3 installed**:
     ```sh
@@ -36,20 +35,19 @@ This project is a simple Python-based translator that converts common English ph
 ## Usage
 
 1. **Run the program**:
-    ```sh
-    python translator.py
-    ```
+    
 2. **Follow the instructions in the terminal**:
     - The program will display a list of common English phrases.
     - Type the number corresponding to the phrase you want translated and press Enter.
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the Apache License 2.0.
 
 ## Contact
 
 For any questions or feedback, please contact:
 
+- **Name**: Adelita Martinez
 - **Email**: 94martinez.adelita@gmail.com
 - **LinkedIn**: [Adelita Martinez](https://www.linkedin.com/in/adelitamartinez/)
