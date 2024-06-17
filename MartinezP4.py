@@ -36,7 +36,7 @@ english2spanish={'Good morning.':'Buenos días.',
 
 # Welcome and explaination
 print("\nWelcome!")
-print("This program acts as a english to spanish translator of common phrases.")
+print("This program acts as an english to spanish translator of common phrases.")
 
 # Display available phrases
 # Display index of phrase
